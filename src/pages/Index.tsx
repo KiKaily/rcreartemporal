@@ -16,15 +16,6 @@ const Index = () => {
       <div id="about">
         <About />
       </div>
-      <div id="portafolio">
-        <Portfolio />
-      </div>
-      <div id="nosotros">
-        <Team />
-      </div>
-      <div id="partners">
-        <Partners />
-      </div>
       <div id="contacto">
         <Footer />
       </div>
