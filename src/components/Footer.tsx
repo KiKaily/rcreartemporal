@@ -21,21 +21,6 @@ export const Footer = () => {
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.2 }}
-          className="text-white"
-        >
-          <h3 className="text-xl font-bold mb-4 text-white">secciones</h3>
-          <ul className="space-y-2">
-            <li><a href="#Hero" className="hover:underline">inicio</a></li>
-            <li><a href="#Portfolio" className="hover:underline">trabajos</a></li>
-            <li><a href="#Team" className="hover:underline">nosotros</a></li>
-            <li><a href="#Partners" className="hover:underline">hemos trabajado con</a></li>
-          </ul>
-        </motion.div>
-
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
           className="text-white"
         >
